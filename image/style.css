@@ -4,19 +4,20 @@ body{
     box-sizing: border-box;
 }
 .navbar{
-    height: 70px;
+    overflow-x: hidden;
+    /* height: 70px; */
     background-color:rgb(248,249,250);
     display: flex;
-    padding-left: 100px;
+    /* padding-left: 100px; */
 font-family: Montserrat, sans-serif;
 
 }
 h2.navh2{
     font-weight: 450;
-    font-size: 25px;
-    /* padding: 25px 5px -1px 0px; */
+    font-size: 18px;
+    /* padding: 25px 5px -1px 0px;  */
     padding-top: 3px;
-    padding-left: 60px;
+    padding-left: 140px;
     /* overflow: hidden; */
     cursor: pointer;
 
@@ -24,10 +25,11 @@ h2.navh2{
 ul{
     list-style-type: none;
     display: flex;
-    padding: 8px 0px 0px 55px;
+    padding-left: 50px;
+    padding-top: 6px;
     color: rgb(164,161,161);
     cursor: pointer;
-    font-size: 20px;
+    font-size: 15px;
 
 
 }
@@ -35,26 +37,37 @@ ul #h1{
     color:black;
 }
 li{
-    padding-left: 10px;
+    padding-left: 15px;
 }
 .button1{
-     width: 120px;
-   padding: 13px;
+     /* width: 120px; */
+   padding: 10px;
    border-radius: 5px;
    border-width: 1px;
-   font-size: 18px;
+   font-size: 15px;
    cursor: pointer;
 
-}
+} 
 .buttondiv{
-padding: 15px 0px 0px 900px;
+padding: 10px 0px 0px 600px;
 background-color: rgb(248,249,250);
 }
 .but1 {
     display: inline;
     padding-left: 5px;
 }
-.button1:hover{
+ #b1{
+    color: #FFFFFF;
+    font-size: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    margin: 2px 0px 0px 4px;
+    padding: 0px 7px 0px 7px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:black ;
+} 
+ .button1:hover{
     background-color: black;
     color: white;
 }
@@ -65,36 +78,36 @@ background-color: rgb(248,249,250);
     background-color: rgb(0,0,0);
     color: white;
     text-align: center;
-    height: 300px;
+    height: 260px;
     overflow: hidden;
     padding-top: 80px;
     line-height: 0.5;
 }
 .homeh1{
-    font-size: 65px;
+    font-size: 60px;
     font-family: sans-serif;
     padding-top: 20px;
     
 }
 .homep1{
-    font-size: 23px;
+    font-size: 20px;
     font-family: sans-serif;
     color: rgb(128,128,128);
 }
 .cart{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    margin-top: 40px;
-    margin-left: 130px;
-padding: 0px 100px 100px 100px ;  
-overflow-y: hidden;
+     margin-top: 40px;
+   margin-left: 50px;
+padding: 0px 100px 90px 90px ;  
+/* text-align: center; */
 }
 .cart1{
-  width: 280px;
+  width: 230px;
 border: 1px solid rgb(210,210,210);
 margin-top: 60px ;
-margin-left: -40px;
-height: 430px;
+/* margin-left: -40px; */
+height: 360px;
 border-radius: 8px;
     justify-content: space-around;
 
@@ -102,7 +115,7 @@ border-radius: 8px;
 
 
 .cart1 img{
-    width: 280px;
+    width: 230px;
     position: relative;
   
   }
@@ -111,35 +124,38 @@ border-radius: 8px;
 
   }
   .cart button{
-    width: 150px;
+    /* width: 130px; */
     background-color: white;
 padding: 12px;
 margin-left: 65px;
 margin-top: 10px;
 border: 1px solid black;
 border-radius: 5px;
-font-size: 19px;
+font-size: 15px;
 font-weight: 300;
 }
 .cart1 h6{
     margin-top: 20px;
-font-size: 25px;
+font-size: 20px;
 font-family:Montserrat, sans-serif;
 font-weight: 600;
 }
 .cart1 .star{
-    margin-top: -45px;
-    font-size: 15px;
+    margin-top: -35px;
+    font-size: 12px;
     
 }
 .cart1 .cartp{
-    font-size: 20px;
-    margin-top: -40px;
+    font-size: 15px;
+    margin-top: -35px;
     /* font-weight: 300; */
-    margin-bottom: 55px;
-}
+    /* margin-bottom: 55px; */
+ } 
+ #but1,#but2,#but3,#but4{
+    margin-top: 40px;
+ }
 .cart1 .cartp1{
-    font-size: 20px;
+    font-size: 15px;
     margin-top: px;
 }
 .cartbut1:hover{
@@ -153,19 +169,65 @@ cursor: pointer;
     background-color: black;
     color: white;
     position: absolute;
-    margin-top: -180px;
-    margin-left: 222px;
+    margin-top: -150px;
+    margin-left: 180px;
     text-align:center ;
-    padding: 4px;
+    padding: 2px;
     border-radius: 7px;
 }
 .copy{
     width: 100%;
-    height: 90px;
+    height: 80px;
     background-color: rgb(33,37,41);
     color: white;
-    text-align: center;
+    /* text-align: center; */
     font-family: sans-serif;
-    font-size: 20px;
-    padding-top: 60px;
+    font-size: 16px;
+    padding-top: 40px;
+    font-weight: 300;
 }
+
+@media screen and (max-width:1024px){
+    .cart{
+        margin-left: 80px;    
+
+    }
+    h2.navh2{
+        font-weight: 450;
+        font-size: 18px;
+        padding-top: 4px;
+        padding-left: 75px;
+        cursor: pointer;
+    
+    }
+    .buttondiv{
+        padding: 10px 0px 0px 400px;
+        }
+        .homepage{
+            height: 230px;
+            padding-top: 80px;
+}
+.homeh1{
+    font-size: 50px;
+}
+.cart{
+    grid-template-columns: auto auto auto;
+   margin-left: 40px;
+   justify-content: space-between;
+}
+/* #car1,#car2 {
+    /* display: grid; */
+    /* grid-template-columns: repeat(2,280px);
+margin-left: 100px; */
+/* display: flex; */
+/* justify-content: space-evenly; */
+
+/* grid-template-columns: auto auto; */
+/* } */ 
+
+.cart .car2{
+    float: right;
+}
+}
+
+
