@@ -42,6 +42,12 @@ ul #h1{
 li{
     padding-left: 15px;
 }
+ul #h2:hover{
+color: black;
+}
+ul #h3:hover{
+  color: black;
+  }
 
 .button1{
      /* width: 120px; */
@@ -505,10 +511,10 @@ padding-left: 46px;
 
         }
         #but4{
-            margin-top: 30px;
+            margin-top: 21px;
         }
         #but6{
-            margin-top: 1px;
+            margin-top: -8px;
         }
         #but3{
             margin-top: 45px;
@@ -530,8 +536,8 @@ padding-left: 46px;
         }
         
         .sale{
-            margin-top: -85px;
-            margin-left: 85px;
+            margin-top: -93px;
+            margin-left: 97px;
                
         }
         .cart .ca1{
